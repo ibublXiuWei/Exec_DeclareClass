@@ -15,18 +15,20 @@ namespace Exec_DeclareClass
 	}
 	class Address
 	{
-		public string City(string city) { return city; }
-		public string ZipCode(string zipcode) { return zipcode; }
-		public string Street(string street) { return street; }
+		public string City { get; set; }
+		public string ZipCode { get; set; }
+		public string Street { get; set; }
+
 
 	}
 
 	class Telephone
 	{
-		public string CountryCode(string country) { return country; }
-		public string AreaCode(string areacode) { return areacode; }
-		public string Number(string number) { return number; }
-		public string Ext(string ext) { return ext; }
+		public string CountryCode { get; set; }
+		public string AreaCode { get; set; }
+		public string Number { get; set; }
+		public string Ext { get; set; }
+		
 	}
 	class Member
 	{
